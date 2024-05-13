@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langchain-v0-1-0"
+version = "0.1.0"
+description = ""
+authors = ["RutamBhagat <rutambhagat@gmail.com>"]
+readme = "README.md"
+packages = [{include = "langchain_v0_1_0"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain-openai = "^0.1.6"
+langchain = "^0.1.20"
+langchainhub = "^0.1.15"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
